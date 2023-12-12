@@ -1,0 +1,688 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'brandon_grotesqueblack';
+    src: url('fonte/brandon_grotesque_black-webfont.eot');
+    src: url('fonte/brandon_grotesque_black-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonte/brandon_grotesque_black-webfont.woff2') format('woff2'),
+        url('fonte/brandon_grotesque_black-webfont.woff') format('woff'),
+        url('fonte/brandon_grotesque_black-webfont.svg#brandon_grotesqueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'trend_sansfive';
+    src: url('fonte/latinotype_-_trendsansfive-webfont.eot');
+    src: url('fonte/latinotype_-_trendsansfive-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonte/latinotype_-_trendsansfive-webfont.woff2') format('woff2'),
+        url('fonte/latinotype_-_trendsansfive-webfont.woff') format('woff'),
+        url('fonte/latinotype_-_trendsansfive-webfont.svg#trend_sansfive') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url('../img/png/bg/bg-azul.jpg');
+    margin: 0;
+    padding: 0;
+
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.botao-nav {
+    cursor: pointer;
+    font-family: brandon_grotesqueblack;
+    font-weight: bold;
+}
+
+/* Parte 1 */
+.div1 {    
+    background-image: url('../img/png/bg/bg-azul.jpg');
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.hellmans1 {
+    width: 40%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.hellmans2 {
+    width: 40%;
+    height: auto;
+    margin-top: 31.5%;
+    margin-left: -5%;
+    margin-bottom: 5%;
+
+}
+
+.botao {
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: brandon_grotesqueblack;
+    color: #124e99;
+    padding: 0.5% 2.5% 0.5% 2.5%;
+    position: absolute;
+    margin-left: -30%;
+    top: 32%;
+    right: 50;
+}
+
+.unilever {
+    width: 10%;
+    height: auto;
+    margin-top: -35%;
+    margin-left: -10%;
+}
+
+.div2 {
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: #143c61;
+    border-radius: 50px;
+    padding: 20px 20px 20px 20px;
+    margin-top: -7%;
+    z-index: 1;
+
+}
+
+.div3 {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border: solid 5px #3874c7;
+    display: block;
+}
+
+.hellmans3 {
+    height: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div4 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-color: #0e4385;
+    margin-top: -10%;
+    z-index: -1;
+}
+
+.text1 {
+    margin-top: 15%;
+    margin-bottom: 4%;
+    font-family: trend_sansfive;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.image-size {
+    height: auto;
+    width: 20%;
+    position: sticky;
+    margin: 5px 5px 15px 0px;
+}
+
+.botao2 {
+    border-radius: 50px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: brandon_grotesqueblack;
+    color: #124e99;
+    padding: 1% 2.5% 1% 2.5%;
+    position: sticky;
+    margin-bottom: 10%;
+}
+
+.div5 {
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: #143c61;
+    border-radius: 50px;
+    margin-top: -8%;
+    padding: 20px 20px 20px 20px;
+    z-index: 1;
+}
+
+.div6 {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border: solid 5px #3874c7;
+    display: block;
+}
+
+.nba-discos {
+    height: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text2 {
+    margin-top: 20px;
+    margin-bottom: 2%;
+    font-family: brandon_grotesqueblack;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.div7 {
+    display: flex;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    padding: 5px 5px 5px 5px;
+    background-color: #1e4986;
+    margin-bottom: 2%;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.p1 {
+    font-size: 80%;
+    margin: 0;
+    border-radius: 50px;
+    padding: 5px;
+    color: #1e4986;
+}
+
+.p2 {
+    font-size: 80%;
+    margin: 0;
+    padding: 5px;
+}
+
+.div8 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: -10%;
+    background-color: #134181;
+    border-radius: 50px;
+    padding: 80px 20px 15% 20px;
+    z-index: -1;
+}
+
+.text-video {
+    margin: 0;
+    padding: 0;
+    margin-top: 8%;
+}
+
+.text3 {
+    margin: 0;
+    padding: 0;
+    font-family: brandon_grotesqueblack;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.div9 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: -8%;
+    background-color: #143c61;
+    border-radius: 50px;
+    padding: 20px 20px 20px 20px;
+    z-index: 1;
+}
+
+.div10 {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border: solid 5px #3874c7;
+    display: block;
+}
+
+.hellmans4 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 80%;
+    position: sticky;
+    margin-bottom: -25px;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.text4 {
+    font-family: trend_sansfive;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.text4_5 {
+    font-family: trend_sansfive;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.div11 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: -11%;
+    background-image: url('../img/png/bg/bg-azul.jpg');
+    padding: 100px 20px 80px 20px;
+    z-index: -1;
+}
+
+.text5 {
+    margin-top: 6%;
+    margin-bottom: 10px;
+    font-family: trend_sansfive;
+    color: antiquewhite;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+.hellmans5 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 20%;
+    position: sticky;
+    z-index: 1;
+    margin-top: 50px;
+    margin: 20px 5px 15px 5px;
+}
+
+.botao3 {
+    width: 20%;
+    height: auto;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: brandon_grotesqueblack;
+    color: #124e99;
+    padding: 1% 1% 1% 1%;
+    position: sticky;
+    margin: 20px 5px 15px 5px;
+}
+
+.div12 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: -10%;
+    background-color: #074a75;
+    padding: 50px 20px 40px 20px;
+    z-index: -2;
+}
+
+.hellmans6 {
+    margin: 0;
+    padding: 0 10px 0 10px;
+    height: auto;
+    width: 80%;
+    position: sticky;
+    margin-top: 9%;
+    color: white;
+}
+
+.rede-social {
+    height: auto;
+    position: sticky;
+    z-index: 1;
+    color: white;
+    margin: 3% 1% 3% 1%;
+}
+
+.hr1 {
+    float: left;
+    display: block;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.hr2 {
+    float: right;
+    display: block;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1px;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.p-fim {
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+}
+
+.text-fim {
+    word-break: break-all;
+    font-family: brandon_grotesqueblack;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.unilever2 {
+    height: auto;
+    margin-top: 5%;
+}
+
+@media screen and (max-width:400px) {
+    body {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .div1 {
+        padding-top: 15%;
+    }
+
+    .botao-nav {
+        margin: 0;
+        padding: 0;
+        font-size: 0.5rem;
+
+    }
+
+    .botao {
+        font-size: 0.7rem;
+    }
+
+    .botao2 {
+        font-size: 1.5rem;
+    }
+
+    .text1 {
+        font-size: 1.4rem;
+    }
+
+    .text2 {
+        font-size: 1.1rem;
+    }
+
+    .div5,
+    .div6,
+    .div8,
+    .div9,
+    .div10 {
+        border-radius: 30px;
+    }
+
+    .div7 {
+        border-radius: 20px;
+        font-size: 0.6rem;
+    }
+
+    .text3 {
+        font-size: 0.5rem;
+    }
+
+    .video {
+        width: 300px;
+        height: 200px;
+    }
+
+    .text4 {
+        font-size: 1rem;
+    }
+
+    .text4_5 {
+        font-size: 0.5rem;
+    }
+
+    .text5 {
+        font-size: 1rem;
+    }
+
+    .botao3 {
+        font-size: 55%;
+    }
+
+    .rede-social {
+        width: 6.5%;
+    }
+
+    .text-fim {
+        font-size: 0.8rem;
+    }
+
+    .unilever2 {
+        width: 14%;
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+
+    .div1 {
+        padding-top: 5%;
+    }
+
+    .z-nav0 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .botao-nav {
+        padding: 0;
+        margin: 0;
+        font-size: 0.6rem;
+    }
+
+    .botao {
+        font-size: 1.5rem;
+    }
+
+    .text1 {
+        font-size: 2.5rem;
+    }
+
+    .text2 {
+        font-size: 1.2rem;
+    }
+
+    .text3 {
+        font-size: 1.2rem;
+    }
+
+    .video {
+        width: 600px;
+        height: 400px;
+    }
+
+    .text4 {
+        font-size: 2rem;
+    }
+
+    .text4_5 {
+        font-size: 1rem;
+    }
+
+    .text5 {
+        font-size: 2rem;
+    }
+
+    .botao3 {
+        font-size: 90%;
+    }
+
+    .rede-social {
+        width: 5.5%;
+    }
+
+    .text-fim {
+        font-size: 0.9rem;
+    }
+
+    .unilever2 {
+        width: 12%;
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+
+    .z-nav0 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .botao-nav {
+        font-size: 0.8rem;
+    }
+
+    .botao {
+        font-size: 1.8rem;
+    }
+
+    .text1 {
+        font-size: 3.5rem;
+    }
+
+    .text2 {
+        font-size: 1.4rem;
+    }
+
+    .text3 {
+        font-size: 1.5rem;
+    }
+
+    .video {
+        width: 700px;
+        height: 500px;
+    }
+
+    .text4 {
+        font-size: 2.3rem;
+    }
+
+    .text4_5 {
+        font-size: 1.2rem;
+    }
+
+    .text5 {
+        font-size: 2.5rem;
+    }
+
+    .botao3 {
+        font-size: 100%;
+    }
+
+    .rede-social {
+        width: 6%;
+    }
+
+    .text-fim {
+        font-size: 1.1rem;
+    }
+
+    .unilever2 {
+        width: 10%;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .z-nav0 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .botao-nav {
+        font-size: 0.9rem;
+    }
+
+    .botao {
+        font-size: 2rem;
+    }
+
+    .text1 {
+        font-size: 4rem;
+    }
+
+    .text2 {
+        font-size: 2rem;
+    }
+
+    .text3 {
+        font-size: 2rem;
+    }
+
+    .video {
+        width: 800px;
+        height: 600px;
+    }
+
+    .text4 {
+        font-size: 2.8rem;
+    }
+
+    .text4_5 {
+        font-size: 1.5rem;
+    }
+
+    .text5 {
+        font-size: 3rem;
+    }
+
+    .botao3 {
+        font-size: 110%;
+    }
+
+    .rede-social {
+        width: 3%;
+    }
+
+    .text-fim {
+        font-size: 1.5rem;
+    }
+
+    .unilever2 {
+        width: 7%;
+    }
+}
